@@ -1,34 +1,44 @@
-body, h1 {
+body {
   font-family: sans-serif;
 }
 
 .wrapper {
-  width: 600px;
-  height: 600px;
-  margin: 30px auto;
+  width: fit-content;
+  height: fit-content;
+  margin: 15px auto;
+  padding: 5px;
+  background-color: #313B74;s
+}
+
+h1 {
+  color: #7C84AE;
 }
 
 .button {
   display: inline-block;
   text-decoration: none;
   margin: 0 auto;
-  background-color: #F9F9F9;
+  background-color: #182257;
   padding: 15px;
-  color: #242424;
+  color: #7C84AE;
+  border: 1px solid #7C84AE;
 }
 
 #canvas {
   background-color: white;
-    border: 1px solid grey;
+  border: 1px solid #525C91;
+  width: 600px;
+  height: 600px;
+  padding: 0;
 }
 
 .pixel {
-  border: 1px solid #F0F0F0;
+  border: 1px solid #525C91;
   margin: -1px;
   float: left;
   opacity: 0;
 }
 
 .pixelOn{
-  background-color: #242424;
+  background-color: #070F3A;
 }
